@@ -134,6 +134,8 @@ input:focus {
     width: 100%;
     margin: 0 40px;
     border: none;
+    align-self: stretch;
+    flex: 1;
 }
 
 .search-buttons {
