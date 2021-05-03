@@ -1,0 +1,237 @@
+/* Material icons CSS */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/public/dist/font/Material-Design-Icons.eot);
+    /* For IE6-8 */
+    src: url(/public/dist/font/Material-Design-Icons.woff2) format('woff2'), url(/public/dist/font/Material-Design-Icons.woff) format('woff'), url(/public/dist/font/Material-Design-Icons.ttf) format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 1.4rem;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+
+/* Container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Navigation Items */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px 10px 0;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.menu-items li {
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.sign-btn {
+    margin-left: 8px;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+
+
+/* Seach container */
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.search-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 24px;
+    min-width: 500px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.search-field span {
+    margin-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-field input {
+    width: 100%;
+    margin: 0 40px;
+    border: none;
+}
+
+.search-buttons {
+    display: flex;
+    gap: 15px
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+
+/* Google Search image */
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 160px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.g-img {
+    max-height: 92px;
+    position: relative;
+    margin-top: auto;
+}
+
+
+/* Languages */
+
+.languages {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 14px;
+}
+
+.languages ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5px;
+}
+
+.languages ul li {
+    padding: 0 5px;
+}
+
+
+/* Footer container */
+
+.footer-container {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    padding: 0 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.tc {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+}
+
+.aabh {
+    display: flex;
+    flex: 1;
+}
+
+.pts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aabh p {
+    padding: 0 30px;
+}
+
+.pts p {
+    padding: 0 30px;
+}
+
+.footer-right {
+    display: flex;
+}
